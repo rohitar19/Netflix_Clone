@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.set('strictQuery', True);
+mongoose.set('strictQuery', true);
 
 mongoose
   .connect("mongodb+srv://rohit960211:Rohit123@cluster0.qfbl9nq.mongodb.net/Netflix_Clone?retryWrites=true&w=majority", {
